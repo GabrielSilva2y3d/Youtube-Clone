@@ -1,9 +1,15 @@
-import React from 'react'
+import { Box, Typography } from "@mui/material";
+import { useState, useEffect } from "react";
+import { useParams } from "react-router-dom";
+import { Videos, ChannelCard } from "./";
 
 const ChannelDetail = () => {
+  const { channelId } = useParams();
+  const [channelData, setChannelData] = useState(null);
+  const [videosData, setVideosData] = useState(null);
   return (
-    <div>ChannelDetail</div>
-  )
-}
+    <Box></Box>
+  );
+};
 
-export default ChannelDetail
+export default ChannelDetail;
