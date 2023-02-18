@@ -33,7 +33,8 @@ const Feed = () => {
            sx={{ 
             overflowY: "auto", 
             height: "90vh", 
-            flex: 2 
+            flex: 2,
+            ml: 2 
            }}>
         <Typography variant="h4" fontWeight="bold" mb={2} sx={{ color: "white" }}>
           {selectedCategory} <span style={{ color: "#FC1503" }}>videos</span>

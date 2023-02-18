@@ -4,7 +4,7 @@ import { Link } from "react-router-dom"
 import { demoProfilePicture } from "../utils/constants"
 
 
-const ChannelCard = ({ channelDetail}) => (
+const ChannelCard = ({ channelDetail, marginTop }) => (
    <Box 
       sx={{
         boxShadow: 'none', 
@@ -14,7 +14,8 @@ const ChannelCard = ({ channelDetail}) => (
         alignItems: 'center',
         width: {xs: '356px', md: '300px'},
         height: '326px',
-        margin: 'auto'
+        margin: 'auto',
+        marginTop,
       }}>
     <Link to={`/channel/${channelDetail?.id?.channelId}`}>
       <CardContent 
@@ -26,28 +27,29 @@ const ChannelCard = ({ channelDetail}) => (
             color: '#FFF'
             }}>
 
-        <CardMedia 
-          image={channelDetail?.snippet?.thumbnails?.high?.url || demoProfilePicture}
-          alt={channelDetail?.snippet?.title}
-          sx={{ 
-            borderRadius:'50%', 
-            height: '180px', 
-            width: '180px',
-            mb: 2,
-            border:'1px solid #e3e3e3'
-          }}/>
+      <CardMedia 
+        image={channelDetail?.snippet?.thumbnails?.high?.url || demoProfilePicture}
+        alt={channelDetail?.snippet?.title}
+        sx={{ 
+          borderRadius:'50%', 
+          height: '180px', 
+          width: '180px',
+          margin: 'auto',
+          mb: 2,
+          border:'1px solid #e3e3e3'
+        }}
+      />
 
-         <Typography variant="h6">
-            {channelDetail?.snippet?.title}
-            <CheckCircle sx={{ fontSize: 14, color: 'gray', ml: '6px'}}/>
-          </Typography> 
+      <Typography variant="h6">
+        {channelDetail?.snippet?.title}
+        <CheckCircle sx={{ fontSize: 14, color: 'gray', ml: '6px'}}/>
+      </Typography> 
 
-          {channelDetail?.statistics?.subscriberCount && (
-            <Typography>
-              {parseInt(channelDetail?.statistics?.subscriberCount).toLocaleString()}
-              Subscribers
-            </Typography>
-          )}
+      {channelDetail?.statistics?.subscriberCount && (
+        <Typography>
+          {parseInt(channelDetail?.statistics?.subscriberCount).toLocaleString()} Subscribers
+        </Typography>
+      )}
 
       </CardContent>
     </Link>

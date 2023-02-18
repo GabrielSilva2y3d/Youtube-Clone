@@ -15,6 +15,7 @@ const Navbar = () => {
         top: 0,
         background: "#000",
         p: 2,
+        zIndex: 100
       }}
     >
       <Link to="/" style={{ display: "flex", alignItems: "center" }}>
