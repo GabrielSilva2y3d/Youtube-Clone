@@ -13,10 +13,10 @@ const VideoCard = ({ video: { id: { videoId }, snippet } }) => {
   return (
     <Card
       sx={{
-        width: { md: "320px", xs: "100%" },
+        width: { xs: "320px", sm:'338px', md: "300px"},
         boxShadow: "0px 4px 12px rgba(0, 0, 0, 0.15)",
         borderRadius: "4px",
-        backgroundColor: "#222",
+        backgroundColor: "#222", 
         color: "#fff",
         display: "flex",
         flexDirection: "column",
@@ -28,12 +28,7 @@ const VideoCard = ({ video: { id: { videoId }, snippet } }) => {
           component="img"
           image={snippet?.thumbnails?.high?.url || demoThumbnailUrl}
           alt={snippet?.title}
-          sx={{
-            width: "100%",
-            height: "180px",
-            
-            borderRadius: "4px",
-          }}
+          sx={{ width: { xs: '320px', sm: '338px', md:'300'}, height: {xs: '180px', sm: '200px', md: '160px'}}} 
         />
       </Link>
       <CardContent
@@ -43,7 +38,7 @@ const VideoCard = ({ video: { id: { videoId }, snippet } }) => {
           display: "flex",
           flexDirection: "column",
           justifyContent: "space-between",
-          height: "64px",
+          height: "72px",
         }}
       >
         <Link to={videoId ? `/video/${videoId}` : demoVideoUrl}>

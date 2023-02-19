@@ -8,7 +8,7 @@ const Videos = ({ videos, direction }) => {
   
   return (
     <Stack 
-      direction="row" 
+      direction={ direction || "row" }
       flexWrap="wrap" 
       justifyContent="start" 
       alignItems="start" 
@@ -24,4 +24,4 @@ const Videos = ({ videos, direction }) => {
   );
 }
 
-export default Videos;  
+export default Videos;
