@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# Clone do YouTube
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este é o repositório do meu projeto Clone do YouTube, uma versão simplificada do famoso site de compartilhamento de vídeos. Você pode acessar o projeto [aqui](https://rainbow-figolla-f695cf.netlify.app/).
 
-## Available Scripts
+## Visão Geral
 
-In the project directory, you can run:
+O projeto Clone do YouTube foi desenvolvido com o objetivo de reproduzir algumas das principais funcionalidades do YouTube. Ele permite aos usuários assistir a vídeos, pesquisar por títulos, visualizar a lista de reprodução e interagir com os vídeos por meio de curtidas e comentários.
 
-### `npm start`
+## Tecnologias Utilizadas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+O projeto foi construído utilizando as seguintes tecnologias:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- HTML5: Utilizado para a estruturação do conteúdo e elementos do site.
+- CSS3: Utilizado para estilizar e personalizar a aparência visual do site.
+- JavaScript: Utilizado para a lógica de interação e manipulação dos elementos da página.
+- YouTube API: Utilizada para a integração e obtenção de dados dos vídeos.
 
-### `npm test`
+## Funcionalidades Principais
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+O projeto Clone do YouTube possui as seguintes funcionalidades principais:
 
-### `npm run build`
+- Pesquisa de vídeos: Os usuários podem pesquisar por vídeos utilizando palavras-chave.
+- Reprodução de vídeos: Os vídeos são reproduzidos diretamente no site, oferecendo aos usuários a experiência de assistir aos conteúdos selecionados.
+- Lista de reprodução: Os usuários podem visualizar a lista de vídeos relacionados ao vídeo em reprodução.
+- Interação com vídeos: Os usuários podem curtir vídeos e deixar comentários, compartilhando suas opiniões e feedback.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Estrutura do Projeto
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+A estrutura do projeto está organizada da seguinte forma:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- `index.html`: Arquivo HTML principal que contém a estrutura da página.
+- `css/`: Pasta que contém os arquivos CSS para estilização do site.
+- `js/`: Pasta que contém os arquivos JavaScript para a lógica de interação.
+- `assets/`: Pasta que contém os recursos utilizados no projeto, como imagens e ícones.
 
-### `npm run eject`
+## Como Contribuir
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Este projeto foi desenvolvido como um exercício pessoal e, portanto, não estou aceitando contribuições diretas. No entanto, se você tiver sugestões ou melhorias, fique à vontade para abrir uma issue neste repositório.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Licença
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Este projeto está licenciado sob a licença MIT. Para mais informações, consulte o arquivo [LICENSE](https://github.com/gabrielsilva2y3d/youtube-clone/blob/main/LICENSE).
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Agradecimentos
 
-## Learn More
+Gostaria de agradecer a todos que visitam e interagem com o projeto Clone do YouTube. Espero que essa versão simplificada proporcione uma experiência agradável e demonstre minhas habilidades de desenvolvimento web.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Obrigado!
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Gabriel Silva
